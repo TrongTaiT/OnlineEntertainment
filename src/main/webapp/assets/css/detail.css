@@ -1,0 +1,63 @@
+@import url("../css/common.css");
+@import url("../css/header.css");
+@import url("../css/footer.css");
+body {
+    height: 100%;
+    background-color: rgba(48, 43, 49, 0.95);
+    z-index: -1;
+    color: #fff;
+}
+
+.content {
+    margin-top: 80px;
+}
+
+.video-info__title {
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 0;
+}
+
+.video-info__views {
+    position: relative;
+}
+
+.video-info__views::after {
+    content: '•';
+    margin: 0 4px;
+    position: absolute;
+}
+
+.video-info__details {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.nav-badge {
+    transform: translateY(-0.15rem);
+}
+
+.suggest {
+    border-left: 1px solid rgb(109, 106, 106);
+}
+
+.suggest__card.card,
+.desc__card.card,
+.comment__card.card {
+    margin-top: 2rem;
+    background-color: var(--primary-color);
+}
+
+.comment__time {
+    font-weight: 300;
+    font-size: smaller;
+}
+
+
+/* .desc__text {
+    line-height: 26px;
+    min-height: 130px;
+    overflow: hidden;
+    height: 130px;
+    max-height: 130px;
+} */

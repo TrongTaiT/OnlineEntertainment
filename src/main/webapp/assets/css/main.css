@@ -1,0 +1,37 @@
+@import url("../css/common.css");
+@import url("../css/header.css");
+@import url("../css/footer.css");
+
+/* Override BootStrap */
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: inherit;
+}
+
+
+/* Home */
+
+body {
+    margin-top: 80px;
+    min-height: calc(100vh - 83px);
+    background-color: rgba(48, 43, 49, 0.95);
+    /* background: url(../img/home__bg.jpg) center center / cover no-repeat; */
+}
+
+
+/* body::before {
+    position: absolute;
+    content: '';
+    top: 80px;
+    right: 0;
+    height: 100%;
+    left: 0;
+    z-index: 0;
+} */
+
+.home__wrapper {
+    position: relative;
+}
+
+/* End Home */

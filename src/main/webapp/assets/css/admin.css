@@ -1,0 +1,12 @@
+@import url("../css/common.css");
+@import url("../css/header.css");
+body {
+    margin-top: 80px;
+    min-height: calc(100vh - 83px);
+    background-color: rgba(48, 43, 49, 0.95);
+    /* background: url(../img/home__bg.jpg) center center / cover no-repeat; */
+}
+
+.content {
+    min-height: calc(100vh - 83px);
+}
